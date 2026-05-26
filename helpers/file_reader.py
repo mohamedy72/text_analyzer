@@ -7,7 +7,7 @@ from pathlib import Path
 
 def read_file(filepath: str):
     p = Path(filepath)
-    print("📖 Reading your file...")
+    print(f"📖 Reading your file..., {p}")
 
     # Check if the file is actually a txt file
     if p.suffix == ".txt":
